@@ -1,5 +1,5 @@
 import React, {forwardRef} from 'react'; 
-import { Button } from '../StyledComponents/Button.tsx';
+import { Button } from '../StyledComponents/Button';
 import styled from 'styled-components';
 import './Card.css';
 import { useDispatch, useSelector } from 'react-redux';
