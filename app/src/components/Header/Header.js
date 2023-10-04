@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { StyledLink } from "../StyledComponents/Link.tsx";
+import { StyledLink } from "../StyledComponents/Link";
 import "./Header.css";
 import useWindowSize from "../CustomHooks/Reseize/useWindowSize.js";
 
