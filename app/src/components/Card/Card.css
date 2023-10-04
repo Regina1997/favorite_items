@@ -1,0 +1,38 @@
+.card__info__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card__container:hover {
+  border-color: #1B3764;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card__container:hover .card-button {
+  transform: translate(-50%, 95%);
+  opacity: 1;
+}
+
+.name_desktop{
+  font-size: 30px;
+}
+
+.name_tablet, .name_mobile_m{
+  font-size: 25px;
+}
+
+.name_mobile_s{
+  font-size: 20px;
+}
+
+h1 {
+  width: 82.5%;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
