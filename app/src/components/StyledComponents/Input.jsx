@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import React, { InputHTMLAttributes } from 'react';
+import React from 'react';
 
 const StyledInput = styled.input`
   max-width: 190px;
@@ -20,7 +20,7 @@ const StyledInput = styled.input`
 `;
 
 
-export const Input: React.FC<InputHTMLAttributes<HTMLInputElement>> = props => {
+export const Input = props => {
   return <StyledInput {...props} /> ;
 };
 

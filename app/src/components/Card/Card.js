@@ -9,7 +9,6 @@ import Checkbox from '@mui/material/Checkbox';
 import FavoriteBorder from '@mui/icons-material/FavoriteBorder';
 import Favorite from '@mui/icons-material/Favorite';
 import { ItemCard } from '../StyledComponents/Card.tsx';
-import useWindowSize from '../CustomHooks/Reseize/useWindowSize.js';
 
 const NewButton = styled(Button)`
   transform: translate(-50%, 125%); 

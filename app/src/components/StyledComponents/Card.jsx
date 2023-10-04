@@ -1,12 +1,7 @@
-import React, { forwardRef, Ref } from 'react';
+import React, { forwardRef } from 'react';
 import styled from 'styled-components';
 
-interface CardProps {
-  width: string;
-  [key: string]: any;
-}
-
-const StyledCard = styled.div<CardProps>`
+const StyledCard = styled.div`
   width: ${(props) => {
     if (props.width === 'desktop'){
       return 'calc(100%/3 - 60px)'
@@ -31,6 +26,6 @@ const StyledCard = styled.div<CardProps>`
   transition: 0.5s ease-out;
 `;
 
-export const ItemCard = forwardRef((props: CardProps, ref: Ref<HTMLDivElement>) => {
+export const ItemCard = forwardRef((props, ref) => {
   return <StyledCard {...props} ref={ref} />;
 });

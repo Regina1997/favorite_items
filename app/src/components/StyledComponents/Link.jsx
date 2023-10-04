@@ -1,12 +1,7 @@
 import styled from "styled-components";
 import React from "react";
 
-interface LinkProps {
-  fontSize: string;
-  [key: string]: any;
-}
-
-const Link = styled.h1<LinkProps>`
+const Link = styled.h1`
   font-size: ${(props) => {
     if (props.fontSize === "mobile_m") {
       return "20px";
@@ -24,6 +19,6 @@ const Link = styled.h1<LinkProps>`
   }
 `;
 
-export const StyledLink: React.FC<LinkProps> = (props) => {
+export const StyledLink = (props) => {
   return <Link {...props} />;
 };

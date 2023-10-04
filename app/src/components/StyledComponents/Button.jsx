@@ -1,7 +1,7 @@
-import React, { ButtonHTMLAttributes } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
-const StyledButton = styled.button<{ primary?: boolean }>`
+const StyledButton = styled.button`
   background-color: #1B3764;
   color: white;
   border: none;
@@ -13,6 +13,6 @@ const StyledButton = styled.button<{ primary?: boolean }>`
   box-sizing: border-box;
 `;
 
-export const Button: React.FC<ButtonHTMLAttributes<HTMLButtonElement>> = props => {
+export const Button = props => {
   return <StyledButton {...props} />;
 };
