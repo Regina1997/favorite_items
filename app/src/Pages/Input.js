@@ -1,7 +1,7 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { setPageNumber, setQuery } from './pagesSlice';
-import { Input } from '../components/StyledComponents/Input.tsx';
+import { Input } from '../components/StyledComponents/Input';
 
 function StyledInput() {
     const { query } = useSelector(state => state.pages)
