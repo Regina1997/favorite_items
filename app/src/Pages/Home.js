@@ -3,7 +3,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Card from '../components/Card/Card';
-import Loader from '../components/StyledComponents/Loader.tsx';
+import Loader from '../components/StyledComponents/Loader';
 import { Popup } from '../components/Popup/Popup';
 import { Box } from '@mui/material';
 import { useRef } from 'react';
