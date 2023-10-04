@@ -1,6 +1,6 @@
 import React from "react";
 import "./Popup.css";
-import { Button } from "../StyledComponents/Button.tsx";
+import { Button } from "../StyledComponents/Button";
 import { hidePopup } from "./popupSlice";
 import { useDispatch, useSelector } from "react-redux";
 
