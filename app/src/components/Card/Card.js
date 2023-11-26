@@ -8,7 +8,7 @@ import { showPopup } from '../Popup/popupSlice';
 import Checkbox from '@mui/material/Checkbox';
 import FavoriteBorder from '@mui/icons-material/FavoriteBorder';
 import Favorite from '@mui/icons-material/Favorite';
-import { ItemCard } from '../StyledComponents/Card.tsx';
+import { ItemCard } from '../StyledComponents/Card';
 
 const NewButton = styled(Button)`
   transform: translate(-50%, 125%); 
